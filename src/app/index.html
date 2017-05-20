@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const { node, chrome, electron } = process.versions
+            document.getElementById('nv').innerHTML = node
+            document.getElementById('cv').innerHTML = chrome
+            document.getElementById('ev').innerHTML = electron
+        })
+    </script>
+
+    <body>
+        <div id="banner">Electron is up and running</div>
+        <div id="shellInfo">
+            <div> Node version : <span id="nv"></span> </div>
+            <div>Electron version : <span id="ev"></span></div>
+            <div>Chrome version : <span id="cv"></span></div>
+        </div>
+    </body>
+</html>

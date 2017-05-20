@@ -4,7 +4,8 @@
   "description": "Social network from your desktop",
   "main": "main.js",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",

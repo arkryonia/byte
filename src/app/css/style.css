@@ -1,0 +1,13 @@
+#banner {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+    margin: 10px;
+}
+
+#shellInfo {
+    margin: 10px;
+    line-height: 2;
+    font-size: 14px;
+    font-family: verdana;
+}
